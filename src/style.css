@@ -80,7 +80,6 @@ p {
 }
 
 .about-paragraphs p {
-  /* max-width: 25rem; */
   margin: 10px;
 }
 
@@ -95,6 +94,16 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.about-link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.contact-link:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 @media (max-width: 768px) {
@@ -124,6 +133,15 @@ p {
 @media (min-width: 769px) and (max-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
 
   p {
